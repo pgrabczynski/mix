@@ -1,0 +1,7 @@
+npm -v
+cd Desktop
+cd HTML
+npm init --y
+npm install live-server -g
+live-server
+doskey /history

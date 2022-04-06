@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+    
+
+    <title></title>
+  </head>
+  <html>
+
+  <body>
+  
+	<div id="addingMixes">
+	  <label for="fname">Mix name:</label><br>
+	  <input type="text" id="fname" name="fname" value="869"><br><br>
+	  <label for="lname">Vegetables:</label><br>
+	  <ul id="myList">
+	  <li>
+	  <input type="text" id="lname" name="lname" value="bloemkool"><br>
+	  </li>
+	  <li>
+	  <input type="text" id="lname" name="lname" value="broccoli"><br><br>
+	  </li>
+	  </ul>
+	 
+
+	
+			  <button id="next" >next product</button><br><br>
+        <button id="add" >add</button><br><br>
+
+    </div>
+	
+
+	  <div id="container">
+	  <!-- 
+	  <input id="next" type="button" value="next vegetable">
+	  -->
+	
+    
+
+<div id="draggable194">
+  <p> rucola 30mm</p>
+</div>
+
+<div id="draggable195">
+  <p> bosui 5mm</p>
+</div>
+
+
+<div id="draggable196">
+  <p> RODE PEPER blok 3mm</p>
+</div>
+
+<div id="draggable197">
+  <p> MUNT FIJN</p>
+</div>
+
+<div id="draggable198">
+  <p> peterselie fijn</p>
+</div>
+
+
+
+
+<div id="draggable194-nonvalid" class="yellow">
+  <p> papryka zółta </p>
+</div>
+
+
+<div id="draggable194-nonvalid" class="tague">
+  <p> tague </p>
+</div>
+
+<div id="droppable194">
+  <p> 194 </p>
+</div>
+
+</div>
+
+
+
+  <script src="js/script.js"></script>
+  </body>
+</html>
+
